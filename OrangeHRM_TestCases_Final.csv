@@ -1,0 +1,9 @@
+Test Case ID,Module,Test Scenario,Test Steps,Test Data,Expected Result,Actual Result,Status,Priority
+TC_001,Login,Valid Login,Enter valid credentials,Admin/admin123,Login successful,User logged in successfully (see dashboard.png),Pass,High
+TC_002,Login,Invalid Login,Enter wrong password,Admin/wrong123,Error message,Error message displayed (see invalid-login.png),Pass,High
+TC_003,Login,Empty Fields,Click login without input,-,Validation error,Required field message displayed (see empty-fields.png),Pass,Medium
+TC_004,Login,Long Username,Enter long username,aaaaaaa...,Validation error,System allowed long input without proper validation (see long-username.png),Fail,Medium
+TC_005,PIM,Add Employee,Add new employee,Rahul Sharma,Employee added,Employee successfully added (see add-employee.png),Pass,High
+TC_006,PIM,Search Employee,Search employee,Rahul,Employee found,Employee found in list (see search-employee.png),Pass,Medium
+TC_007,Admin,Empty Search,Search no record,xyz,No record found,System displayed no record found (see no-record.png),Pass,Low
+TC_008,UI,Loading Issue,Open add employee page,-,Page loads quickly,Loading spinner delay observed (see loading.png),Fail,Medium
