@@ -1,0 +1,3 @@
+Bug ID,Title,Module,Severity,Priority,Steps to Reproduce,Expected Result,Actual Result,Status
+BUG_001,Missing validation for long username,Login,Low,Medium,Enter long username,Validation error,System accepts long input,Open
+BUG_002,Loading delay in Add Employee,PIM,Medium,Medium,Open add employee page,Quick load,Loading spinner delay,Open
